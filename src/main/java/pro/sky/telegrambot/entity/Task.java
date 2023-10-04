@@ -15,17 +15,19 @@ public class Task {
     private Integer id;
     private long idChat;
     private String text;
-
     private LocalDateTime date;
     public LocalDateTime getDate() {
         return date;
     }
 
+    public Task() {
+
+    }
     public Task(Integer id, long idChat, String text, LocalDateTime date) {
         this.id = id;
         this.idChat = idChat;
         this.text = text;
-        this.date = LocalDateTime.now();
+        this.date = date;
     }
 
     public Integer getId() {
