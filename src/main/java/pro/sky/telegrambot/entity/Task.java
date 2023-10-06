@@ -23,7 +23,7 @@ public class Task {
     public Task() {
 
     }
-    public Task(Integer id, long idChat, String text, LocalDateTime date) {
+    public Task(long idChat, String text, LocalDateTime date) {
         this.id = id;
         this.idChat = idChat;
         this.text = text;
